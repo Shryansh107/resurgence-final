@@ -9,6 +9,8 @@ import {
 import { Link } from "react-router-dom";
 import image from "../assets/images/logo.png";
 
+
+
 const NavbarDefault = () => {
     const [openNav, setOpenNav] = React.useState(false);
     React.useEffect(() => {
@@ -85,6 +87,7 @@ const NavbarDefault = () => {
                 </Collapse>
             </div>
         </div>
+        
     );
 };
 

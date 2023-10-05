@@ -29,6 +29,11 @@
   src:url("./assets/fonts/Valorant\ Font.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "poppins";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
 :root {
     background-color: #010004;
     font-size: 16px;
@@ -38,7 +43,7 @@
     margin: 0;
 
     color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 0.87); 
 
     
 }

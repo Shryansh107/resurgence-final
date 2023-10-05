@@ -4,6 +4,7 @@ import "./HorizontalLine.css";
 export default function HorizontalLine() {
     return (
         <>
+            <div className="pt-[40px]">
             <div className="line">
                 <div class="garnish_wrapper">
                     <div class="garnish short"></div>
@@ -16,6 +17,7 @@ export default function HorizontalLine() {
                     <div class="angled"></div>
                 </div>
                 <div class="right_line"></div>
+            </div>
             </div>
         </>
     );

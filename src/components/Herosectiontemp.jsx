@@ -4,7 +4,8 @@ import Typewriter from "typewriter-effect";
 import BackgroundVideo from "./heroSection/backgroundVideo";
 import { Typography } from "@material-tailwind/react";
 import CornerTri from "./heroSection/CornerTri";
-
+import "./Home.scss";
+import cyber from "../assets/images/cyberpunk-warrior-man-futuristic-soldier-3d-render-illustration_691560-6135.png";
 
 const HeroSection = () => {
     return (
@@ -13,8 +14,8 @@ const HeroSection = () => {
                 <div>
                     {/* <NavbarDefault /> */}
                     <section>
-                        <BackgroundVideo />
-                        <CornerTri/>
+                        {/* <BackgroundVideo /> */}
+                        {/* <CornerTri /> */}
                         <div
                             className="relative py-10 lg:px[5%] text-white max-w-7xl mx-auto
         h-[30rem] lg:h-[42vw]
@@ -35,10 +36,43 @@ const HeroSection = () => {
                                         filter: "drop-shadow(0 0 0.75em rgba(0,0,0,.3))",
                                     }}
                                 >
-                                    {/* <ValorantLogo /> */}
                                     <div className="text-[2.3rem]  pt-[16rem] text-[#eaecec]  custom-font1 lg:text-[5.3rem]">
-                                        Resurgence
+                                        {/* <div className="home_main_text text_main_size">
+                                            <span className="flicker text_main_size">
+                                                Res
+                                            </span>
+                                            <span>urg </span>
+                                            <span className="fast-flicker text_main_size">
+                                                ence
+                                            </span>
+                                        </div> */}
                                     </div>
+                                    {/* <div className="home_main">
+                                        <div className="home_container">
+                                            <div className="home_hero ext-[2.3rem]  pt-[16rem] text-[#eaecec]  custom-font1 lg:text-[5.3rem] ">
+                                                <div className="home_main_title">
+                                                    <div className="home_title_tagline">
+                                                        <div
+                                                            className="home_main_info glitch"
+                                                            data-text="For vibe, for games."
+                                                        >
+                                                            For vibe, for games.
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className="image_cyber">
+                                                <img
+                                                    src={cyber}
+                                                    className="cyber"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className="globe_position">
+                                            <GlobeAnimation />
+                                        </div>
+                                    </div> */}
                                 </div>
                             </div>
                             {/* Button Container */}

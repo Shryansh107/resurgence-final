@@ -10,10 +10,10 @@ const GameOn = () => {
         <>
             <div className="grid lg:grid-cols-2">
                 <div className="GameOn_text ">
-                    <Typography className="custom-font text-[5rem] py-8">
+                    <Typography className="custom-font1 text-[2.5rem] lg:text-[4rem]  py-8 justify-center flex">
                         GameOn
                     </Typography>
-                    <Typography className="text-[1.1rem] px-3 py-8">
+                    <Typography className="text-[1.2rem] custom-font3 p-[35px] lg:p-[80px] text-center">
                         With the classic flappy bird! Resurgence is gaming club
                         of NIT Hamirpur. We are a gaming first, but not limited
                         to gaming club. We are a community of gamers,
