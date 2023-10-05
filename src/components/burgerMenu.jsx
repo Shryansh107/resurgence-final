@@ -34,7 +34,7 @@ const DialogDefault = () => {
                         variant="text"
                         color="white"
                         onClick={handleOpen}
-                        className="mx-10 text-[1.2rem] bg-[rgba(0,0,0,0.9)]  "
+                        className="mx-1 text-[1.2rem] bg-[rgba(0,0,0,0.9)]  "
                     >
                         <span>X</span>
                     </Button>

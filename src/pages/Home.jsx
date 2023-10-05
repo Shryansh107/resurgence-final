@@ -10,7 +10,7 @@ import Service from "../components/service.jsx";
 import config from "../App.config";
 import "../components/WhatDoWeDo.css";
 import "./Home.scss";
-import cyber from "../assets/images/cyberpunk-warrior-man-futuristic-soldier-3d-render-illustration_691560-6135.png";
+import cyber from "../assets/images/WhatsApp Image 2023-10-05 at 10.27.35 PM.jpeg";
 
 const Home = () => {
     return (
@@ -19,7 +19,12 @@ const Home = () => {
                 <BackgroundParticles />
             </div>
             <div>
-                <div className="">
+                <div className="home_container">
+                    <img
+                        src={cyber}
+                        alt="sad"
+                        className="absolute z-[-1]  w-screen opacity-40"
+                    />
                     <div
                         className="flex w-screen h-screen justify-evenly items-center 
                 flex-col lg:flex-row"
@@ -55,13 +60,13 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <div className="">
+                        {/* <div className="">
                             <img
                                 className="h-96 w-full hidden lg:block object-cover object-center"
                                 src={cyber}
                                 alt="nature image"
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
