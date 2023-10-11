@@ -9,7 +9,7 @@ import images from "../assets/images/images";
 const Overview = () => {
     return (
         <>
-            <div className="Overview mt-8 mx-4">
+            <div className="Overview mt-8 mx-4" id="overview">
                 <div className="overview_Heading ">
                     <Typography className="custom-font1 text-[2.5rem] lg:text-[4rem]  py-8 justify-center flex">
                         Overview

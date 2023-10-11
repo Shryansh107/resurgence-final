@@ -1,5 +1,4 @@
 import { Chrono } from "react-chrono";
-import HorizontalCard from "../components/eventComponents";
 import { events } from "../config";
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect } from "react";
@@ -32,6 +31,9 @@ const Home = () => {
                     items={items}
                     mode="VERTICAL_ALTERNATING"
                     hideControls="false"
+                    cardHeight="650"
+                    cardWidth="500"
+                    mediaHeight="400"
                     theme={{
                         primary: "blue",
                         secondary: "white",

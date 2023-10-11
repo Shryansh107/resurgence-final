@@ -5,14 +5,13 @@ import OurTeam from "./pages/OurTeam";
 import Events from "./pages/Events";
 import Navbar from "./components/Navbar";
 import { ReactNavbar } from "./lib/overlay-nav";
-import image from "../src/assets/images/logo.png";
-import DialogDefault from "./components/burgerMenu";
+import NavBar from "./components/burgerMenu";
 
 function App() {
     return (
         <>
-            <div className="absolute z-[10] right-4 lg:left-4 top-4">
-                <DialogDefault />
+            <div className="absolute z-[40] right-20 top-5 ">
+                <NavBar />
             </div>
             <Routes>
                 <Route exact path="/" element={<Home />}></Route>

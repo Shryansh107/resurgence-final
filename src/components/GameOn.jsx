@@ -8,7 +8,7 @@ const GameOn = () => {
     });
     return (
         <>
-            <div className="grid lg:grid-cols-2">
+            <div className="grid lg:grid-cols-2" id="gameon">
                 <div className="GameOn_text ">
                     <Typography className="custom-font1 text-[2.5rem] lg:text-[4rem]  py-8 justify-center flex">
                         GameOn

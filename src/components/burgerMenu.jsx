@@ -7,19 +7,19 @@ import {
     DialogFooter,
     Typography,
 } from "@material-tailwind/react";
-import image from "../assets/images/logo.png"
+import image from "../assets/images/logo.png";
+import SocialLinks from "./SocialMedia";
 
-
-const DialogDefault = () => {
+const NavBar = () => {
     const [open, setOpen] = React.useState(false);
 
     const handleOpen = () => setOpen(!open);
 
     return (
-        <>
+        <div className="absolute z-20">
             <Button
                 onClick={handleOpen}
-                className="bg-[rgba(0,0,0,0.75)] text-[1.2rem]"
+                className="bg-transparent text-[1.2rem] "
             >
                 ☰
             </Button>
@@ -36,18 +36,18 @@ const DialogDefault = () => {
                         onClick={handleOpen}
                         className="mx-1 text-[1.2rem] bg-[rgba(0,0,0,0.9)]  "
                     >
-                        <span>X</span>
+                        X
                     </Button>
                 </DialogHeader>
-                <div className="flex justify-evenly" >
-                    <div className="img">
+                <div className="flex flex-col lg:flex-row justify-evenly gap-4 ">
+                    <div className="img flex justify-center">
                         <img
-                            className="h-96 w-96 rounded-full object-cover object-center"
+                            className="w-48 lg:h-96 lg:w-96 rounded-full object-cover "
                             src={image}
                             alt="nature image"
                         />
                     </div>
-                    <div className="flex flex-col justify-center items-center gap-4">
+                    <div className="flex flex-col  justify-center items-center gap-4">
                         <Typography
                             as="li"
                             variant="xl"
@@ -56,9 +56,9 @@ const DialogDefault = () => {
                         >
                             <a
                                 href="/home"
-                                className="flex items-center custom-font3 text-[2rem]"
+                                className=" flex items-center custom-font1 text-[2rem]"
                             >
-                                Home
+                                HOME
                             </a>
                         </Typography>{" "}
                         <Typography
@@ -69,9 +69,9 @@ const DialogDefault = () => {
                         >
                             <a
                                 href="/events"
-                                className="flex items-center custom-font3 text-[2rem]"
+                                className="flex items-center custom-font1 text-[2rem]"
                             >
-                                Events
+                                Time Line
                             </a>
                         </Typography>{" "}
                         <Typography
@@ -82,16 +82,19 @@ const DialogDefault = () => {
                         >
                             <a
                                 href="/team"
-                                className="flex items-center custom-font3 text-[2rem]"
+                                className="flex items-center custom-font1 text-[2rem]"
                             >
                                 Team Members
                             </a>
                         </Typography>
                     </div>
                 </div>
+                <div className="mt-16">
+                    <SocialLinks />
+                </div>
             </Dialog>
-        </>
+        </div>
     );
 };
 
-export default DialogDefault;
+export default NavBar;

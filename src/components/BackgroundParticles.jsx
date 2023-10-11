@@ -46,7 +46,7 @@ const BackgroundParticles = () => {
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 120,
                             duration: 0.4,
                         },
                     },
@@ -57,9 +57,9 @@ const BackgroundParticles = () => {
                     },
                     links: {
                         color: "#ffffff",
-                        distance: 150,
+                        distance: 350,
                         enable: true,
-                        opacity: 0.5,
+                        opacity: 0.8,
                         width: 1,
                     },
                     move: {
@@ -69,7 +69,7 @@ const BackgroundParticles = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: 2,
                         straight: false,
                     },
                     number: {

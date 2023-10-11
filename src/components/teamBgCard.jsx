@@ -6,31 +6,39 @@ import {
     Avatar,
 } from "@material-tailwind/react";
 import ProfileCard from "./profileCard";
+import { motion, useAnimation } from "framer-motion";
+import React, { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 
-const BackgroundBlogCard = () => {
+const EventBgCard = () => {
+    const controls = useAnimation();
+    const [ref, inView] = useInView();
+    useEffect(() => {
+        if (inView) {
+            controls.start("show");
+        }
+    }, [controls, inView]);
     return (
-        <Card
-            shadow={false}
-            className="mb-10 relative grid h-[40rem] w-full  items-end justify-center overflow-hidden text-center"
+        <motion.div
+            initial={{ y: "-150px", opacity: 0 }}
+            transition={{
+                type: "spring",
+                delay: 0.3,
+                duration: 0.85,
+                ease: "easeOut",
+            }}
+            ref={ref}
+            animate={controls}
+            variants={{ show: { x: 0, y: 0, opacity: 1 } }}
         >
-            <CardHeader
-                floated={false}
-                shadow={false}
-                color="transparent"
-                className="absolute inset-0 m-0 h-full w-full rounded-none bg-[url('https://images.unsplash.com/photo-1558008258-3256797b43f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80')] bg-cover bg-center"
+            <Typography
+                color="white"
+                className="mb-6 flex justify-center font-medium leading-[1] custom-font1 tracking-widest text-[2.5rem] lg:text-[5.5rem] py-[4.4rem] px-6 md:px-12"
             >
-                <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
-            </CardHeader>
-            <CardBody className="absolute py-14 px-6 md:px-12">
-                <Typography
-                    color="white"
-                    className="mb-6 font-medium leading-[1] custom-font1 tracking-widest text-[2.5rem] lg:text-[5.5rem]"
-                >
-                    Team Members
-                </Typography>
-            </CardBody>
-        </Card>
+                Team Members
+            </Typography>
+        </motion.div>
     );
 };
 
-export default BackgroundBlogCard;
+export default EventBgCard;

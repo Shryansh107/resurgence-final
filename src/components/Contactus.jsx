@@ -4,7 +4,8 @@ import EarthCanvas from "../components/models/EarthCanvas";
 const Contactus = () => {
     return (
         <>
-            <div className=" max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-1 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto  text-gray-900 rounded-lg shadow-lg">
+            <div className=" max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-1 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto  text-gray-900 rounded-lg shadow-lg"
+            id="contactus">
                 <div className="flex items-center justify-center">
                     <h2 className="custom-font1 text-white text-[2rem] lg:text-[4rem] font-bold leading-tight">
                         Contact Us

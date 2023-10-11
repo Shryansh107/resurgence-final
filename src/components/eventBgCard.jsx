@@ -1,11 +1,4 @@
-import {
-    Card,
-    CardHeader,
-    CardBody,
-    Typography,
-    Avatar,
-} from "@material-tailwind/react";
-import ProfileCard from "./profileCard";
+import { Typography } from "@material-tailwind/react";
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
@@ -33,7 +26,7 @@ const EventBgCard = () => {
         >
             <Typography
                 color="white"
-                className="mb-6 flex justify-center font-medium leading-[1] custom-font1 tracking-widest text-[2.5rem] lg:text-[5.5rem] py-[4.4rem] px-6 md:px-12"
+                className="mb-6 flex justify-center font-medium leading-[1] custom-font1 tracking-widest text-[2.5rem] lg:text-[5.5rem] lg:pt-[2.2rem] lg:pb-[1.2rem] px-6 md:px-12"
             >
                 TimeLine
             </Typography>
