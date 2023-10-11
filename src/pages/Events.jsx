@@ -13,7 +13,7 @@ const OurTeam = () => {
                 <div className="absolute z-[-2]">
                     <BackgroundParticles />
                 </div>
-                .
+                
                 <EventBgCard />
                 <Home />
                 <FooterWithLogo />

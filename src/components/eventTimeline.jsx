@@ -3,6 +3,7 @@ import { events } from "../config";
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
+import CardDefault from "./EventBgCard";
 
 const Home = () => {
     const items = events;
@@ -33,6 +34,14 @@ const Home = () => {
                     hideControls="false"
                     cardHeight="650"
                     cardWidth="500"
+                    fontSizes={{
+                        cardSubtitle: '0.85rem',
+                        cardText: '0.8rem',
+                        cardTitle: '1rem',
+
+
+                        title: '1.5rem',
+                    }}
                     mediaHeight="400"
                     theme={{
                         primary: "blue",
@@ -42,6 +51,10 @@ const Home = () => {
                         titleColorActive: "blue",
                     }}
                 />
+                {/* <Chrono mode="VERTICAL_ALTERNATING" hideControls="false">
+                <CardDefault/>
+                </Chrono> */}
+                
             </motion.div>
         </div>
     );
