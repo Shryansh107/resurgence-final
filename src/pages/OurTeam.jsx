@@ -46,12 +46,10 @@ const Events = () => {
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
-                // autoPlay={true}
                 autoPlaySpeed={2000}
                 keyBoardControl={true}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                // dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px my-4"
                 partialVisbile
                 className="px-14 lg:p-12"
@@ -82,12 +80,10 @@ const Events = () => {
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
-                // autoPlay={true}
                 autoPlaySpeed={2000}
                 keyBoardControl={true}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                // dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px my-4"
                 partialVisbile
                 className="px-14 lg:p-12"
@@ -118,12 +114,10 @@ const Events = () => {
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
-                // autoPlay={true}
                 autoPlaySpeed={2000}
                 keyBoardControl={true}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                // dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px my-4"
                 partialVisbile
                 className="px-14 lg:p-12"
@@ -154,12 +148,10 @@ const Events = () => {
                 responsive={responsive}
                 ssr={true} // means to render carousel on server-side.
                 infinite={true}
-                // autoPlay={true}
                 autoPlaySpeed={2000}
                 keyBoardControl={true}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                // dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px my-4"
                 partialVisbile
                 className="px-14 lg:p-12"
@@ -180,91 +172,7 @@ const Events = () => {
                     );
                 })}
             </Carousel>
-            {/* <TeamCarousel>
-                <div className="border-b border-dashed py-7">
-                    <Typography className="custom-font2 " variant="h2">
-                        {Team["final_year"].map((elem) => {
-                            const { name, post, photo, linkedin, instagram } =
-                                elem;
-                            return (
-                                <ProfileCard
-                                    key={name}
-                                    data={{
-                                        post,
-                                        name,
-                                        photo,
-                                        linkedin,
-                                        instagram,
-                                    }}
-                                />
-                            );
-                        })}
-                    </Typography>
-                </div>
-            </TeamCarousel> */}
-            {/* <div className="border-b border-dashed py-7">
-                <Typography className="custom-font2 " variant="h2">
-                    {Team["third_year"].map((elem) => {
-                        const { name, post, photo, linkedin, instagram } = elem;
-
-                        return (
-                            <ProfileCard
-                                key={name}
-                                data={{
-                                    post,
-                                    name,
-                                    photo,
-                                    linkedin,
-                                    instagram,
-                                }}
-                            />
-                        );
-                    })}
-                </Typography>
-                <TeamCarousel />
-            </div>{" "}
-            <div className="border-b border-dashed py-7">
-                <Typography className="custom-font2 " variant="h2">
-                    {Team["second_year"].map((elem) => {
-                        const { name, post, photo, linkedin, instagram } = elem;
-
-                        return (
-                            <ProfileCard
-                                key={name}
-                                data={{
-                                    post,
-                                    name,
-                                    photo,
-                                    linkedin,
-                                    instagram,
-                                }}
-                            />
-                        );
-                    })}
-                </Typography>
-                <TeamCarousel />
-            </div>{" "}
-            <div className="border-b border-dashed py-7">
-                <Typography className="custom-font2 " variant="h2">
-                    {Team["first_year"].map((elem) => {
-                        const { name, post, photo, linkedin, instagram } = elem;
-
-                        return (
-                            <ProfileCard
-                                key={name}
-                                data={{
-                                    post,
-                                    name,
-                                    photo,
-                                    linkedin,
-                                    instagram,
-                                }}
-                            />
-                        );
-                    })}
-                </Typography>
-                <TeamCarousel />
-            </div> */}
+            
             </div>
         </>
     );

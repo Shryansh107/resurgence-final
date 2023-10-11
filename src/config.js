@@ -1,10 +1,11 @@
+import squid from "../src/assets/images/SQUID GAMES8.webp"
+
 const events = [
     {
-        title: "Valorant-Try Outs",
-        cardTitle: "",
+        title: "",
+        cardTitle: "Valorant-Try Outs",
         url: "",
-        cardSubtitle:
-            "",
+        cardSubtitle: "",
         cardDetailedText:
             "Resurgence organized Valorant tryouts from 4th September to 6th September",
         media: {
@@ -15,13 +16,11 @@ const events = [
         },
     },
     {
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
-        cardDetailedText:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "",
+        cardTitle: "BGMI-Try Outs",
+        url: "",
+        cardSubtitle: "",
+        cardDetailedText: "Resurgence organized BGMI tryouts on 10th September",
         media: {
             type: "IMAGE",
             source: {
@@ -30,112 +29,88 @@ const events = [
         },
     },
     {
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
-        cardDetailedText:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "",
+        cardTitle: "Stumble Guys",
+        url: "",
+        cardSubtitle: "",
+        cardDetailedText: "",
         media: {
             type: "IMAGE",
             source: {
-                url: "http://someurl/image.jpg",
+                url: "https://res.cloudinary.com/dbcuaopfk/image/upload/v1696961477/WhatsApp_Image_2023-10-10_at_22.03.44_zcuiup.jpg",
             },
         },
     },
     {
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "",
+        cardTitle: "Free To Play",
+        url: "",
+        cardSubtitle: "",
         cardDetailedText:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+            "Resurgence hosted a free to play event, which took place on 11th September",
         media: {
             type: "IMAGE",
             source: {
-                url: "http://someurl/image.jpg",
+                url: "https://res.cloudinary.com/dbcuaopfk/image/upload/v1696962068/Snapinsta.app_376283522_1010138286920644_3166755428674393509_n_1080_qsfu30.jpg",
             },
         },
     },
     {
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "",
+        cardTitle: "BGMI Tournament",
+        url: "",
+        cardSubtitle: "",
         cardDetailedText:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+            "Resurgence hosted an esports tournament of BGMI, which took place from 28th September to 1st October",
         media: {
             type: "IMAGE",
             source: {
-                url: "http://someurl/image.jpg",
+                url: "https://res.cloudinary.com/dbcuaopfk/image/upload/v1696961477/WhatsApp_Image_2023-10-10_at_22.03.58_yzzaf3.jpg",
             },
         },
     },
     {
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "",
+        cardTitle: "Games And Groves",
+        url: "",
+        cardSubtitle: "",
         cardDetailedText:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+            "Resurgence hosted an esports tournament featuring FIFA 19 and Tekken 7, which took place from 5th October to 7th October",
         media: {
             type: "IMAGE",
             source: {
-                url: "http://someurl/image.jpg",
+                url: "https://res.cloudinary.com/dbcuaopfk/image/upload/v1696962068/WhatsApp_Image_2023-10-02_at_11.24.53_tszyp4.jpg",
             },
         },
     },
     {
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "",
+        cardTitle: "Valorant Tournament",
+        url: "",
+        cardSubtitle: "",
         cardDetailedText:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+            "Resurgence is hosted an esports tournament of Valorant, which took place from 11th October to 13th October",
         media: {
             type: "IMAGE",
             source: {
-                url: "http://someurl/image.jpg",
+                url: "https://res.cloudinary.com/dbcuaopfk/image/upload/v1696962068/WhatsApp_Image_2023-10-10_at_21.20.39_o84lmt.jpg",
             },
         },
     },
     {
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
-        cardDetailedText:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
+        title: "",
+        cardTitle: "Squid Games",
+        url: "",
+        cardSubtitle: "",
+        cardDetailedText: "Resurgence organizing Squid games on 15th October",
         media: {
             type: "IMAGE",
             source: {
-                url: "http://someurl/image.jpg",
-            },
-        },
-    },
-    {
-        title: "May 1940",
-        cardTitle: "Dunkirk",
-        url: "http://www.history.com",
-        cardSubtitle:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
-        cardDetailedText:
-            "Men of the British Expeditionary Force (BEF) wade out to..",
-        media: {
-            type: "IMAGE",
-            source: {
-                url: "http://someurl/image.jpg",
+                url: squid,
             },
         },
     },
 ];
 
-const teams = {}
-
+const teams = {};
 export { events, teams };
