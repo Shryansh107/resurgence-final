@@ -86,9 +86,9 @@ margin-bottom: 5%;
   display: flex;
   font-size: 8em;
   color: #ffe6ff;
-  text-shadow:  0 0 0.6rem #4da0ee, 0 0 1.5rem #4d50ee ,
-      -0.2rem 0.1rem 1rem #4d50ee , 0.2rem 0.1rem 1rem #4d50ee,
-      0 -0.5rem 2rem #4deeea, 0 0.5rem 3rem #4deeea;
+  text-shadow: 0 0 0.6rem #cc0029, 0 0 1.5rem #9b001f ,
+      -0.2rem 0.1rem 1rem #9b001f , 0.2rem 0.1rem 1rem #9b001f,
+      0 -0.5rem 2rem #9b001f, 0 0.5rem 3rem #9b001f;
   animation: shine 2s forwards, flicker 3s infinite;
 }
 
@@ -98,18 +98,18 @@ margin-bottom: 5%;
   36%,
   75% {
     color: #ffe6ff;
-    text-shadow: 0 0 0.6rem #4da0ee, 0 0 1.5rem #4d50ee ,
-      -0.2rem 0.1rem 1rem #4d50ee , 0.2rem 0.1rem 1rem #4d50ee,
-      0 -0.5rem 2rem #4deeea, 0 0.5rem 3rem #4deeea;
+    text-shadow: 0 0 0.6rem #cc0029, 0 0 1.5rem #9b001f ,
+      -0.2rem 0.1rem 1rem #9b001f , 0.2rem 0.1rem 1rem #9b001f,
+      0 -0.5rem 2rem #9b001f, 0 0.5rem 3rem #9b001f;
   }
   28%,
   33% {
-    color: #4d50ee;
+    color: #9b001f;
     text-shadow: none;
   }
   82%,
   97% {
-    color: #4d50ee;
+    color: #9b001f;
     text-shadow: none;
   }
 }
@@ -129,9 +129,9 @@ margin-bottom: 5%;
   }
   100% {
     color: #ffe6ff;
-    text-shadow: 0 0 0.6rem #4da0ee, 0 0 1.5rem #4d50ee ,
-    -0.2rem 0.1rem 1rem #4d50ee , 0.2rem 0.1rem 1rem #4d50ee,
-    0 -0.5rem 2rem #4deeea, 0 0.5rem 3rem #4deeea;
+    text-shadow: 0 0 0.6rem #cc0029, 0 0 1.5rem #9b001f ,
+    -0.2rem 0.1rem 1rem #9b001f , 0.2rem 0.1rem 1rem #9b001f,
+    0 -0.5rem 2rem #9b001f, 0 0.5rem 3rem #9b001f;
   }
 }
 
@@ -323,7 +323,7 @@ animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinit
 content: attr(data-text);
 position: absolute;
 left: 2px;
-text-shadow: -5px 0 #4deeea;
+text-shadow: -5px 0 #9b001f;
 background: black;
 overflow: hidden;
 top: 0;
