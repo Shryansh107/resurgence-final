@@ -7,7 +7,7 @@ const events = [
         url: "",
         cardSubtitle: "",
         cardDetailedText:
-            "Resurgence organized Valorant tryouts from 4th September to 6th September",
+            "To experience the adrenaline rush of Valorant , welcome to the world of Valorant, where every shot counts, and every decision matters. Team Resurgence is excited to announce the upcoming Valorant tryouts, where you can showcase your talent with your team ",
         media: {
             type: "IMAGE",
             source: {
@@ -20,7 +20,7 @@ const events = [
         cardTitle: "BGMI-Try Outs",
         url: "",
         cardSubtitle: "",
-        cardDetailedText: "Resurgence organized BGMI tryouts on 10th September",
+        cardDetailedText: "The competitive scene of BGMI is marked by intense gameplay, intricate strategies, and nail-biting moments, making it a captivating and fast-growing sector in the world of esports. So charge your devices and load your guns because BGMI TRYOUTS are back again in the flow",
         media: {
             type: "IMAGE",
             source: {
@@ -33,7 +33,7 @@ const events = [
         cardTitle: "Stumble Guys",
         url: "",
         cardSubtitle: "",
-        cardDetailedText: "",
+        cardDetailedText: "Stumble via the wild obstacles, courses , levels customize your character, and compete against fellow freshmen in this competitive fun battle extravaganza.Tripping, tumbling, and hilarity guaranteed. Embrace the chaos, make new friends🤝 and conquer the wackychallenges👊 to be the last Freshman standing.",
         media: {
             type: "IMAGE",
             source: {
@@ -47,7 +47,7 @@ const events = [
         url: "",
         cardSubtitle: "",
         cardDetailedText:
-            "Resurgence hosted a free to play event, which took place on 11th September",
+            "Resurgence Esports Club 🎮 invites students of all years to embark on an unforgettable gaming adventure through our electrifying free-to-play (F2P) gaming event. Whether you're a casual player or a hard core gamer , these events are your chance to level up, make new friends, and be part of the esports excitement. So , Be ready to experience the true realm of eSports and witness the immersive gaming extravaganza involving games such as Motion Kinetics , Fifa , Tekken , MK and many more in the list .Come and do join us during the extensions period.",
         media: {
             type: "IMAGE",
             source: {
@@ -61,7 +61,7 @@ const events = [
         url: "",
         cardSubtitle: "",
         cardDetailedText:
-            "Resurgence hosted an esports tournament of BGMI, which took place from 28th September to 1st October",
+            "Get ready to battle it out in the Ultimate Battlegrounds Mobile India Tournament going to be conducted by RESURGENCE ESPORTS NIT Hamirpur 🔥! Get your Squad ready to unleash the most exciting and competitive tournament of Esports , this is your chance to prove your skills and win amazing prizes.",
         media: {
             type: "IMAGE",
             source: {
@@ -75,7 +75,7 @@ const events = [
         url: "",
         cardSubtitle: "",
         cardDetailedText:
-            "Resurgence hosted an esports tournament featuring FIFA 19 and Tekken 7, which took place from 5th October to 7th October",
+            "HOLA Gamers,Get ready for four days of thrilling eSports action at GAMES AND GROOVES! We are excited to invite you to participate in an electrifying gaming experience where you can showcase your skills and compete against others in INTER- BRANCH FIFA, Tekken(SOLO), and various free-to-play games such as Mortal Kombat,Need for speed etc",
         media: {
             type: "IMAGE",
             source: {
@@ -89,7 +89,7 @@ const events = [
         url: "",
         cardSubtitle: "",
         cardDetailedText:
-            "Resurgence is hosted an esports tournament of Valorant, which took place from 11th October to 13th October",
+            "Are you ready to showcase your skills in one of the most intense and tactical shooters of all time? Get ready for the ultimate Valorant tournament.Join us for a thrilling day of competitive gaming, teamwork, and epic battles as teams from across the gaming world come together to compete for glory and prizes",
         media: {
             type: "IMAGE",
             source: {

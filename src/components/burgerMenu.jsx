@@ -16,7 +16,7 @@ const NavBar = () => {
     const handleOpen = () => setOpen(!open);
 
     return (
-        <div className="absolute z-20">
+        <div className="sticky z-20">
             <Button
                 onClick={handleOpen}
                 className="bg-transparent text-[1.2rem] "
@@ -42,10 +42,15 @@ const NavBar = () => {
                 <div className="flex flex-col lg:flex-row justify-evenly gap-4 ">
                     <div className="img flex justify-center">
                         <img
-                            className="w-48 lg:h-96 lg:w-96 rounded-full object-cover "
+                            className="w-48 lg:h-96 lg:w-96  object-cover "
                             src={image}
                             alt="nature image"
                         />
+                        {/* <img
+                            src={image}
+                            alt="sad"
+                            className="absolute z-[30] hidden lg:block w-[10rem]   "
+                        /> */}
                     </div>
                     <div className="flex flex-col  justify-center items-center gap-4">
                         <Typography
@@ -71,7 +76,7 @@ const NavBar = () => {
                                 href="/events"
                                 className="flex items-center custom-font1 text-[2rem]"
                             >
-                                Time Line
+                                Events
                             </a>
                         </Typography>{" "}
                         <Typography

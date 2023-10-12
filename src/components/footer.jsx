@@ -11,11 +11,16 @@ const FooterWithLogo = () => {
             <footer className="w-full px-8 py-2">
                 {/* <hr className="my-8 border-dashed border-white-50" /> */}
                 <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12  text-center md:justify-between">
-                    <div className="flex gap-10">
-                        <Avatar src={logo} alt="avatar" size="xl" />
+                    <div className="flex gap-8">
+                        
+                        <img
+                            src={logo}
+                            alt="sad"
+                            className=" hidden  lg:block w-[10rem]   "
+                        />
                         <SocialLinks />
                     </div>
-                    <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
+                    <ul className="flex flex-wrap items-center gap-y-2 gap-x-8 ">
                         <li>
                             <Typography
                                 as="a"

@@ -36,7 +36,7 @@ const Home = () => {
                     fontSizes={{
                         cardSubtitle: '1rem',
                         cardText: '0.8rem',
-                        cardTitle: '1.2rem',
+                        cardTitle: '1.4rem',
                         title: '1.5rem',
                     }}
                     mediaHeight="400"
@@ -45,7 +45,7 @@ const Home = () => {
                         secondary: "white",
                         cardBgColor: "rgba(0, 0, 0, 0.51)",
                         titleColor: "white",
-                        cardDetailedTextColor: "blue",
+                        cardDetailsColor: "white",
                         cardTitleColor:"white",
                         
                     }}

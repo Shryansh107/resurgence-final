@@ -4,7 +4,7 @@ import "./HorizontalLine.css";
 export default function HorizontalLine() {
     return (
         <>
-            <div className="p-8">
+            <div className=" p-4 lg:p-8">
             <div className="line">
                 <div class="garnish_wrapper">
                     <div class="garnish short"></div>

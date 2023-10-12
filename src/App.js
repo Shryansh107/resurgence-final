@@ -10,7 +10,7 @@ import NavBar from "./components/burgerMenu";
 function App() {
     return (
         <>
-            <div className="absolute z-[40] right-20 top-5 ">
+            <div className=" absolute z-[40] right-5 lg:right-20 top-5 ">
                 <NavBar />
             </div>
             <Routes>
